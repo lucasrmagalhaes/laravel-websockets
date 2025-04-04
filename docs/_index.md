@@ -1,4 +1,4 @@
 ---
 packageName: Laravel Websockets
-githubUrl: https://github.com/beyondcode/laravel-websockets
+githubUrl: https://github.com/riamehdi/laravel-websockets
 ---

@@ -48,6 +48,10 @@ class WebSocketsServiceProvider extends ServiceProvider
             __DIR__.'/../database/migrations/0000_00_00_000000_rename_statistics_counters.php' => database_path('migrations/0000_00_00_000000_rename_statistics_counters.php'),
         ], 'migrations');
 
+        $this->publishes([
+            __DIR__.'/Websocket' => app_path('Websocket')
+        ]);
+
         $this->registerEventLoop();
 
         $this->registerSQLiteDatabase();
